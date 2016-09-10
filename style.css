@@ -42,6 +42,7 @@
     }
 
     .WelcomeNav a{
+        background-color: lightblue;
         color: black;
         display: block;
         flex: 1;
@@ -73,6 +74,7 @@
     }
 
     .Nav a {
+        background-color: lightblue;
         display: block;
         flex: 1;
         border-left: 3px solid black;
@@ -91,7 +93,8 @@
         flex-wrap: wrap;
     }
 
-    .Categories a{
+    .Categories a {
+        background-color: lightblue;
         display: block;
         text-decoration: none;
         font-size: xx-large;
@@ -150,6 +153,7 @@
     }
 
     .WelcomeNav a{
+        background-color: lightblue;
         color: black;
         display: block;
         flex: 1;
@@ -173,6 +177,7 @@
     }
 
     .Nav a {
+        background-color: lightblue;
         display: block;
         flex: 1;
         border-left: 3px solid black;
@@ -189,6 +194,7 @@
     }
 
     .Categories a{
+        background-color: lightblue;
         display: block;
         text-decoration: none;
         font-size: xx-large;
@@ -209,6 +215,7 @@
     }
 
     .List a{
+        background-color: lightblue;
         flex: 1;
         border: 1px solid black;
         text-decoration: none;
@@ -224,4 +231,5 @@
 
     .List a:nth-of-type(even){
         margin-left: 20px;
+        background-color: lightcyan;
     }
