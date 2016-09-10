@@ -1,0 +1,227 @@
+@media all and (orientation:landscape)
+  { 
+    .Landing {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Landing .Logo{
+        display:block;
+        flex-basis: 290px;
+        padding: 50px;
+    }
+
+    .Landing .Welcome{
+        flex: 1;
+    }
+
+    .Welcome h1 {
+        font-size: 60px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .Welcome h2 {
+        font-size: 30px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .Welcome h3 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .Welcome iframe {
+        margin: 40px;
+    }
+
+    .WelcomeNav {
+        display:flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .WelcomeNav a{
+        color: black;
+        display: block;
+        flex: 1;
+        min-height: 3em;
+        border: 3px solid black;
+        padding: 15px 0px;
+        line-height: 3em;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    .WelcomeNav a:first-of-type{
+        border-radius: 30px 0 0 30px;
+    }
+
+    .WelcomeNav a:last-of-type{
+        border-radius: 0 30px 30px 0;
+    }
+
+    .Nav {
+        width: 100%;
+        display: flex;
+        border-bottom: 3px solid black;
+    }
+
+    .Nav .Logo{
+        padding: 0 20px;
+    }
+
+    .Nav a {
+        display: block;
+        flex: 1;
+        border-left: 3px solid black;
+        text-align: center;
+        line-height: 3em;
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+    }
+
+    .Categories {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;  
+        flex-wrap: wrap;
+    }
+
+    .Categories a{
+        display: block;
+        text-decoration: none;
+        font-size: xx-large;
+        color: black;
+        flex-basis: 30%;
+        margin: 0.5em 1.66%;
+        border: 3px solid black;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 30vh;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (orientation:portrait){
+
+    .Landing {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Landing .Logo {
+        display:block;
+        flex-basis: 290px;
+        padding: 50px;
+    }
+
+    .Landing .Welcome{
+        flex: 1;
+    }
+
+    .Welcome h1 {
+        font-size: 60px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .Welcome h2 {
+        font-size: 30px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .Welcome h3 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .Welcome iframe {
+        display: none;
+    }
+
+    .WelcomeNav {
+        display:flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .WelcomeNav a{
+        color: black;
+        display: block;
+        flex: 1;
+        min-height: 3em;
+        border: 3px solid black;
+        padding: 15px 0px;
+        line-height: 3em;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+        margin-bottom: 20px;
+    }
+    .Nav {
+        width: 100%;
+        display: flex;
+        border-bottom: 3px solid black;
+    }
+
+    .Nav .Logo{
+        padding: 0 20px;
+    }
+
+    .Nav a {
+        display: block;
+        flex: 1;
+        border-left: 3px solid black;
+        text-align: center;
+        line-height: 3em;
+        text-decoration: none;
+        font-size: larger;
+        color: black;
+    }
+
+    .Categories {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .Categories a{
+        display: block;
+        text-decoration: none;
+        font-size: xx-large;
+        color: black;
+        margin: 0.5em 1.66%;
+        border: 3px solid black;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 2em;
+        box-sizing: border-box;
+    }
+}
+
+ .List {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .List a{
+        flex: 1;
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        padding-left: 3em;
+        font-size: larger;
+    }
+
+    .List a h1 {
+        font-size: xx-large;
+        padding-left: 2em;
+    }
+
+    .List a:nth-of-type(even){
+        margin-left: 20px;
+    }
